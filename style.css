@@ -1,0 +1,125 @@
+body {
+    background-color:#f5f7fb;
+    color:#1e293b;
+    text-align:center;
+    margin:0;
+
+}
+h1 {
+    color:rgb(146, 66, 103);
+    margin: 40px;
+
+}
+
+button:hover{
+    background-color: rgb(111, 59, 68);
+    color: pink;
+    padding:12px 24px;
+    border-radius:8px;
+    border: none;
+    cursor: pointer;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.card:hover{
+    transform: translateY(-5px);
+    background-color:#da9fbb;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    transition: 0.3s;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: white;
+}
+nav h2 { 
+    color: rgb(138, 48, 120);
+    margin: 0;
+}
+
+nav a:hover {
+    color:darkred;
+    text-decoration: none;
+    color: rgb(106, 36, 93);
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+
+.hero h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero {
+    padding: 40px 20px;
+}
+.hero p {
+    font-size: 24px;
+}
+
+.Featured {
+    padding: 40px 20px;
+    background-color: white;
+}
+.Featured h2 {
+    font-size: 32px;
+}
+
+.featured-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured-list p {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #da9fbb;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .featured-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
